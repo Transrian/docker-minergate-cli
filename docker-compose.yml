@@ -1,0 +1,7 @@
+version: '2.2'
+services:
+
+  minergate_worker:
+    restart: always
+    image: transrian/docker-minergate-cli
+    command: --user my.mail@example.org -t 16 --xmr
