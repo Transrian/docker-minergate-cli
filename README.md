@@ -27,5 +27,5 @@ docker-compose up -d
 **The command line**
 
 ```bash
-docker run -d transrian/docker-minergate-cli --user my.mail@example.org -t 16 --xmr
+docker run -d transrian/docker-minergate-cli --user my.mail@example.org --xmr 16
 ```
