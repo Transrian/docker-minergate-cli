@@ -4,4 +4,4 @@ services:
   minergate_worker:
     restart: always
     image: transrian/docker-minergate-cli
-    command: --user my.mail@example.org -t 16 --xmr
+    command: --user my.mail@example.org --xmr 16
